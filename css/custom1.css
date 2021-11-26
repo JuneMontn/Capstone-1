@@ -13,8 +13,8 @@ h1{
     color: white;
 }
 
-h6{
-    color: #0dfdd7;
+h5{
+    color: ;
 }
 
 
@@ -30,31 +30,65 @@ h6{
 
 p.menu{
     color:grey;
-    background: none;
+    background: rgb(32, 32, 32);
     text-align: center;
+    font-size: 14px;
+    padding:0px 0x 0px;
+    margin:0px;
     
    
 }
 
 #logo-nav{
-    max-width: 20%;
-    height: auto;
-    background:none;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+        background:none;
+        display:block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 0px;
+        width:50%;
+        padding: 0px 0px 0px 0px;
 }
 
 div.row-logo{
     background: black;
     margin: 0px;
-    padding: 0px;
+    padding: 0px 0px 0px 0px;
     
+}
+#logo-nav{
+    width: 100%;
+    max-width: 500px;
+}
+
+#nav-container{
+    padding: 0px 0px 0px 0px;
+}
+
+.dropdown-divider{
+    background:grey;
+    margin: 0px 0px;
+  
 }
 
 #menu-last{
-    margin: 0px;
+    margin:0px;
+    padding: 0px 0px px 0px;
+
+}
+
+.d-flex{
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0px 0px 5px 0px;
+}
+
+.d-flex.justify-content-center.below-logo{
+    padding: 0px 0px 20px 0px;
+    background: black;
+
 }
 /* End of Nav-bar styles */
 
@@ -69,7 +103,7 @@ div.row-logo{
 
 .banner-title{
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 600px;
     margin-top: 50px;
     color: white;
     font-size: 50px;
@@ -97,11 +131,24 @@ img{
     width: 300px;
     height: auto;
 }
+
+.about-me{
+    color: white;
+}
+
+.about-me-quote{
+    color: white;
+}
 /* End of About me Styles */
 
 
 
 /* Start of Project Styles */
+.d-flex{
+    background-color: #1d1d1d;
+    padding: 50px 0px 50px 0px;
+
+}
 /* End of Project Styles */
 
 
@@ -127,13 +174,18 @@ img{
 .contact-section{
     padding:90px 30px;
 }
+
+input, textarea{
+    display: block;
+}
+
 /* End of Contact Styles */
 
 
 /* Start of Footer Styles */
 
 #footer{
-    background-color: black;
+    background: #0000;
     display: block;
     padding:0px;
     margin:0px;
