@@ -5,298 +5,297 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intro to Capstone 1</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!--Google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&family=Roboto:wght@900&display=swap"
-        rel="stylesheet">
-
-    <!--Custom CSS-->
-
-    <link rel="stylesheet" href="./css/custom1.css">
-
-
-
-
-
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="stylesheet" href="./CSS/font1.css">
+    <link rel="stylesheet" href="./CSS/font2.css">
+    <link rel="stylesheet" href="./CSS/font3.css">
+    <title>web-on-the-go</title>
 </head>
 
-<body class="bg-dark">
+<body>
 
+    <!--Nav Section-->
+    <div id="showcase" class="bg-md-dark">
+        <nav id="navbarsection" class="navbar navbar-dark">
+            <div class="container-fluid mx-0 px-0 m-0 pb-0">
+                <a id="navlink" class="navbar-brand align-text-center px-2 p-lg-5 pt-lg-0 fs-1" href="#"><span
+                        id="logoicon">&#60;</span> june <span id="logoicon">&#62;</span>
+                </a>
 
-    <!--Start of Nav-bar-->
-    <section class="nav-bar">
-        <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-dark">
-
-                <div class="row-logo" id="nav-logo">
-                    <img id="logo-nav" src="./assets/images/logo.png" alt="">
-                    <p class="d-flex justify-content-center below-logo">June Monton</p>
-                </div>
-
-
-                <p class="menu">About</p>
-                <hr class="dropdown-divider">
-                <p class="menu">Projects</p>
-                <hr class="dropdown-divider">
-                <p class="menu">My Skills</p>
-                <hr class="dropdown-divider">
-                <p id="menu-last" class="menu">Contact Me!</p>
-            </div>
-        </div>
-        <nav class="navbar navbar-dark float-">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler m-5 my-lg-0 py-lg-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-menu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
+                <div class="collapse navbar-collapse text-center m-0 p-0" id="navbar-menu">
+                    <ul class="navbar-nav fw-light pt-4">
+                        <li class="navbar-item">
+                            <a id="navlink" href="#aboutme" class="nav-link h">About Me</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a id="navlink" href="#projects" class="nav-link">Projects</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a id="navlink" href="#skills" class="nav-link">My Skills</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a id="navlink" href="#" class="nav-link" data-bs-toggle="modal"
+                                data-bs-target="#contactme">Contact Me</a>
+                        </li>
+                </div>
             </div>
         </nav>
 
-    </section>
 
-    <!--End of Nav-bar-->
+        <!--Hero Banner / Showcase-->
+        <section id="showcase" class="text-light p-5 p-lg-5 pt-lg-5 text-center text-sm-start">
+            <div class="container-fluid">
+                <div class="d-sm-flex align-items-center justify-content-between">
+                    <div>
+                        <h1>Hi</h1>
+                        <h1>I'm <span id="logoicon"> June</span></h1>
+                        <h1>aspiring Web Developer</h1>
 
-
-
-
-
-    <!--Hero Banner Section-->
-    <div class="container-fluid">
-        <section id="jumbotron">
-            <div class="row">
-                <div class="col-md-6 banner-title">
-                    <h1>Hi,</h1>
-                    <h1>I'm June,</h1>
-                    <h1>aspiring</h1>
-                    <h1>web developer</h1>
-
-                    <p class="text-muted" id="desc">Front-end Web Development <br> Back-end Web Development</p>
-
-                    <button class="btn">
-                        Contact Me!
-                    </button>
-                </div>
-                <div class="col-md-6">
-                    <img src="." alt="">
-
-
-                </div>
-
-
-
-            </div>
-        </section>
-
-        <!--End of Hero Banner-->
-
-        <!--About Me Section-->
-        <section>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="./assets/images/sample1.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                    <h1>About Me</h1>
-                    <p class="about-me">
-                        Engineer and an Amazon SEO & PPC specialist
-                        with a great passion in technology.
-                    </p>
-                    <p class="about-me">
-                        I am holding into Napoleon Hill's saying,
-                    </p>
-                    <p class="about-me-quote">
-                        “Whatever Your Mind Can Conceive and Believe, It Can Achieve.”
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!--End of About Me Section-->
-
-        <!--Projects Section-->
-        <section>
-            <div class="row">
-                <h1 class="d-flex justify-content-center">Projects</h1>
-
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Capstone 1</a>
-                            </div>
-                        </div>
-
+                        <p class="lead text-muted mb-0 mt-4">
+                            Front-end Web Development
+                        </p>
+                        <p class="lead text-muted mb-4">
+                            Back-end Web Development
+                        </p>
+                        <button id="allbutton" class="btn btn-primary btn-lg mb-5 p-1" data-bs-toggle="modal"
+                            data-bs-target="#contactme">
+                            Contact me!
+                        </button>
                     </div>
 
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Capstone 2</a>
-                            </div>
-                        </div>
-
+                    <!--
+                    <div class="col-md-6 justify-text-between align-text-center">
+                        <h2 id="showcasetxt" class="d-none d-sm-block text-center">LET'S
+                            CREATE SOMETHING SPECIAL</h2>
                     </div>
-
+                    -->
                 </div>
-
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Capstone 3</a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
             </div>
-
         </section>
-
-        <!--End of Projects Section-->
-
-        <!--Start of My Skills Section-->
-        <section>
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="d-flex justify-content-center">My Skills</h1>
-
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <img src="./assets/images/sample2.jpg" alt="">
-
-
-                </div>
-
-            </div>
-
-
-
-
-
-        </section>
-
-
-        <!--End of My Skills Section-->
-
-
-
-
-
-
-
-        <!--Contacts Section-->
-        <section class="contact-section">
-            <div class="row">
-                <div class="col-md-12">
-                    <h6>See My Projects</h6>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <h1>Contact Me!</h1>
-                    <form action="">
-                        <label for=""></label>
-                        <input type="text" id="fname" name="fname" placeholder="Enter Full Name">
-
-                        <label for=""></label>
-                        <input type="email" id="email" name="email" placeholder="E-mail">
-
-                        <label for=""></label>
-                        <input type="tel" id="tel" name="tel" placeholder="Contact number">
-
-                        <label for=""></label>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-
-
-                    </form>
-                </div>
-                <div class="col-md-6">
-                    <div class="container-fluid">
-                        <div class="map-responsive">
-                            <iframe
-                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France"
-                                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        </div>
-
-
-                    </div>
-
-                </div>
-
-        </section>
-
-
-        <!--End of Contacts Section-->
-
-
-
-
 
     </div>
-    <!--Footer Section-->
-    <footer id="footer">
-        <div>
-            <div class="col">
-                <p>
-                    Home
-                </p>
+    <!--Projects-->
+    <section id="projectsection" class="p-5">
+        <div class="container">
 
+            <h2 id="projectheader" class="text-center p-4">Portfolio</h2>
+            <div class="row">
+                <div class="btn col-md-4">
+                    <div>
+                        <i id="faicon" class="fas fa-user-secret fa-10x"></i>
+                        <h3 class="text-center pt-5">Personal Portfolio</h3>
+                        <p class="text-center">This portfolio is made with HTML 5, CSS 3 and Bootstrap</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <i id="faicon" class="fas fa-clipboard-list fa-10x"></i>
+                        <h3 class="text-center pt-5">Booking System API</h3>
+                        <p class="text-center">(This project is still under construction)</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <i id="faicon" class="fas fa-laptop-code fa-10x"></i>
+                        <h3 class="text-center pt-5">Full Stack Application</h3>
+                        <p class="text-center">(This project is still under construction)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <!--About Me-->
+    <section id="aboutmesection">
+        <div class="container-fluid">
+            <div class="row py-5 m-0">
+                <div class="col-sm-6">
+                    <img class="d-flex text-center img-fluid mx-auto d-block" src="./Assets/images/june-img.png" alt="">
+                </div>
+                <div class="col-sm-6">
+                    <h2 id="abtme" class="text-center">
+                        About Me
+                    </h2>
+                    <h5 class="fw-light mb-0 mt-4">
+                        Engineer, Amazon SEO & PPC and an Aspiring Full Stack Web Developer with high passion
+                        in learning modern technology.
+                    </h5>
+                    <h5 class="fw-light mb-0 mt-4">
+                        I spend most of my weekends capturing love stories as an Engagement and Wedding Photographer.
+                    </h5>
+                    <h5 class="fw-light mb-0 mt-4">
+                        I'm a believer of Napoleon Hill's saying;
+                    </h5>
+                    <h1 id="quote" class="fw-light mb-0 mt-4">
+                        "Whatever your mind can conceive and believe, it can achieve."
+                    </h1>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <button id="allbutton" class="btn btn-primary btn-lg mb-5 p-1" data-bs-toggle="modal"
+                            data-bs-target="#contactme">
+                            Let's talk
+                        </button>
+                    </div>
+                </div>
             </div>
 
         </div>
 
 
+    </section>
+
+
+    <!--My Skills-->
+    <section id="skillsection" class="pt-5 pb-5">
+        <div class="container-fluid">
+            <h2 id="skillheader" class="text-center p-5 p-lg-5 pt-lg-0">My Skills</h2>
+            <div class="row text-center g-4">
+                <div class="col-6 col-sm-4">
+                    <img class="img-fluid" src="./Assets/images/html-logo.png" alt="">
+                </div>
+                <div class="col-6 col-sm-4">
+                    <img class="img-fluid" src="./Assets/images/css-logo.png" alt="">
+                </div>
+                <div class="col-6 col-sm-4">
+                    <img class="img-fluid" src="./Assets/images/bootstrap-logo.png" alt="">
+                </div>
+                <div class="col-6 col-sm-4">
+                    <img class="img-fluid" src="./Assets/images/js-logo.png" alt="">
+                </div>
+                <div class="col-6 col-sm-4">
+                    <img class="img-fluid" src="./Assets/images/node-logo.png" alt="">
+                </div>
+            </div>
+
+            <!---
+            <div class="row text-center g-4 justify-content-center mt-2">
+                <div class="col-sm-4">
+                    <img class="img-fluid" src="./Assets/images/js-logo.png" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <img class="img-fluid" src="./Assets/images/node-logo.png" alt="">
+                </div>
+            </div>
+
+        -->
+        </div>
+
+    </section>
+
+    <!--Contact Info-->
+    <section>
+        <div class="container-fluid">
+            <div class="row py-5">
+                <div class="col-md-6 p-5 p-lg-5 pt-lg-0">
+                    <h2>Contact Info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Location:</span> 89 Yishun St 81, Singapore 768449
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Contact Number:</span> (+65) 9060 1347
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold"> Email:</span> cjunemontn@gmail.com
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Website:</span>
+                            junemontn.com.sg
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div id="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6051060853824!2d103.83351035044893!3d1.4129956617575672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1411b66742fd%3A0xc79cfe9e652a1dc0!2sOrchid%20Park%20Condominium!5e0!3m2!1sen!2ssg!4v1637930100242!5m2!1sen!2ssg"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <footer class="p-5 bg-dark text-white text-center position-relative">
+            <div class="container">
+                <p id="footertxt" class="lead">Let's Connect!</p>
+                <div>
+                    <div>
+                        <i class="fab fa-facebook fa-2x mx-2"></i>
+                        <i class="fab fa-instagram fa-2x mx-2"></i>
+                        <i class="fab fa-linkedin fa-2x mx-2"></i>
+                        <i class="fab fa-pinterest fa-2x mx-2"></i>
+                        <i class="fab fa-whatsapp fa-2x mx-2"></i>
+                    </div>
+                    <div>
+                        <a href="#" class="btn position-absolute bottom-0 end-0 pt-30">
+                            <i id="faicon" class="far fa-arrow-alt-circle-up fa-2x fa-3x fa-align-right"></i>
+                        </a>
+                    </div>
+
+                </div>
+        </footer>
 
     </footer>
 
-
-    <!--End of Footer Section-->
-
-
-
-
-
-
-
-
-    <div>
-        <!--Bootstrap JS Files-->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-            crossorigin="anonymous"></script>
-
+    <!-- Modal -->
+    <div class="modal fade" id="contactme" tabindex="-1" aria-labelledby="contactme" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Let's create something special</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="first-name" class="col-form-label">
+                                First Name:
+                            </label>
+                            <input type="text" class="form-control" id="first-name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="last-name" class="col-form-label">Last Name:</label>
+                            <input type="text" class="form-control" id="last-name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="col-form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="col-form-label">Phone:</label>
+                            <input type="tel" class="form-control" id="phone" />
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button id="modalbutton" type="button" class="btn">Submit</button>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+    <!--JS Scrips-->
+    <script src="./JS/popper.min.js"></script>
+    <script src="./JS/bootstrap.min.js"></script>
+
 
 </body>
 

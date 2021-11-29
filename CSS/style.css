@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h2{
+    font-family: lores-12, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar-brand{
+    font-family: lores-12, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+#navlink.navbar-brand{
+    color: #ec2256;
+}
+#allbutton.btn.btn-primary{
+    border:2px solid  #6ffdd8;
+    background-color: transparent;
+}
+#logoicon{
+    color: #6ffdd8;
+}
+
+#navbarsection{
+    background-color: transparent;
+    padding-bottom: 0;
+    
+}
+
+#navbarsection.navbar.navbar-light{
+    color: white;
+}
+
+#navbar-menu ul li .nav-link{
+    background-color: #6ffdd8;
+    color: grey;
+    padding: 0;
+}
+
+#showcase{
+    background-color: transparent;
+    color:white;
+     }
+
+#showcase.bg-md-dark{
+    background-image:url(../Assets/images/bg2.png);
+   height:100%;
+   position: relative;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#showcasetxt{
+    color: #ec2256;
+  
+}
+
+#showbutton{
+    background-color: #6ffdd8;
+}
+#cardsquare{
+    background-color: black;
+    display: flex;
+    justify-content: between;
+}
+
+#faicon{
+    display: flex;
+    justify-content: center;
+    color:#6ffdd8;
+    text-decoration: none;
+}
+
+#portbutton{
+    background-color: #6ffdd8;
+}
+#aboutmesection{
+    background-color: #1d1d1d;
+    color: white;
+}
+
+#abtme{
+    color: #6ffdd8;
+}
+
+#skillsection{
+    background-color:#1d1d1d;
+    color: white;
+}
+
+.img-fluid{
+    max-width: 75%;
+    height: auto;
+}
+
+#footertxt{
+    color:#ec2256;
+}
+
+#modalbutton{
+    background-color: #ec2256;
+}
+
+#quote{
+    font-family: recherche, sans-serif;
+
+    font-weight: 400;
+    
+    font-style: normal;
+}
